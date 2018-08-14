@@ -1,21 +1,401 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Psarnya.com</title>
-    <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
-    <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/fullpage.js/dist/fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
-<div id="fullpage">
-    <div class="section">One</div>
-    <div class="section">
-        <div class="slide" data-anchor="slide1">Two 1</div>
-        <div class="slide" data-anchor="slide2">Two 2</div>
+<!--<p>Anton Fesun</p>-->
+    <ul id="myMenu">
+        <li class="list-element" data-menuanchor="firstPage">           <a class="list-element-link" href="#firstPage">Головна</a>              </li>
+        <li class="list-element" data-menuanchor="secondPage">          <a class="list-element-link" href="#secondPage">Про нас</a>             </li>
+        <li class="list-element" data-menuanchor="thirdPage">           <a class="list-element-link" href="#thirdPage">Наш сервіс</a>           </li>
+        <li class="list-element" data-menuanchor="fourthPage">          <a class="list-element-link" href="#fourthPage">Як допомогти</a>        </li>
+        <li class="list-element" data-menuanchor="fifthPage">           <a class="list-element-link" href="#fifthPage">Контакти</a>     </li>
+        <li class="list-element" data-menuanchor="sixthPage">           <a class="list-element-link" href="#sixthPage">Карта</a>     </li>
+    </ul>
+    <div id="fullpage">
+        <div class="section home" data-menuanchor="#firstPage">
+            <a class="main-link" href="index.html">
+                <img src="images/LOGO-02.png" alt="Logotype">
+                <h1>МКП ПРИТУЛОК ДЛЯ ТВАРИН <br>М. ЧЕРНІВЦІ</h1>
+            </a>
+            <div class="adoption">
+                <h2 class="adoption-chapter">кожному на світі <br>потрібен дім!</h2>
+                <a href="adopt.html" class="adoption-me">Прихисти мене</a>
+            </div>
+        </div>
+        <div class="section about-us" data-menuanchor="#secondPage">
+            <div class="slide slides">
+                <div class="about-us-wrapper">
+                    <h2 class="about-us-wrapper-chapter">ПРО НАС</h2>
+                    <p class="about-us-wrapper-description">
+                        МКП « Притулок для тварин» - це прихисток для безхатніх собак
+                        і кішок у місті Чернівці.  Наша установа була заснована  у 2016 році,
+                        з вірою в те, що тваринки, яким не пощастило родитися і жити разом
+                        із своїм господарем, заслуговують на добросовісне і поважне ставлення
+                        та на  захищеність до себе  відповідно до закону.
+                        Наша мета - дати шанс чотирилапим на краще життя;  доказати,
+                        що людина здатна не лише на жорстоке ставленя, але  й на такі почуття,
+                        як любов, турбота і терпіння. Ми не чарівники, але робимо усе можливе
+                        аби тваринки  не відчували себе покинутими; лікуємо, стерилізуємо,
+                        перетримуємо поки не знайдемо їм сім’ю. Усі звірята  нашого
+                        притулку вже зараз готові приєднатися до твоєї родини та стати тобі
+                        вірним другом, тому що на всіх їх лише одна мрія - знайти собі домівку!
+                    </p>
+                </div>
+            </div>
+            <div class="slide slides"></div>
+            <div class="slide slides"></div>
+            <div class="slide slides"></div>
+        </div>
+        <div class="section services" data-menuanchor="#thirdPage">
+            <div class="services-wrapper">
+                <h2 class="services-wrapper-chapter">НАШ СЕРВІС</h2>
+                <div class="services-wrapper-items">
+                    <div class="services-wrapper-items-service">
+                        <h3 class="services-wrapper-items-service-name">Готельні послуги</h3>
+                        <p class="services-wrapper-items-service-describe">
+                            Приймемо твого улюбленця у будь- який час: Пн -  Нд.
+                        </p>
+                        <img src="images/house.png" alt="dog house">
+                    </div>
+                    <button class="services-wrapper-items-reserve">ЗАМОВИТИ ПОСЛУГУ</button>
+                </div>
+            </div>
+        </div>
+        <div class="section help" data-menuanchor="#fourthPage">
+            <h2 class="help-chapter">Як допомогти</h2>
+            <p class="help-description">
+                Ти завжди можеш допомогти хвостатим.
+                Маленька дрібничка  від тебе - це вже велике щастя для них.
+                Пам’ятай: бумеранг повертається !
+            </p>
+            <div class="help-choices">
+                <div class="help-choices-item">
+                    <img src="images/walking-the-dog.png" alt="walk the dog">
+                    <p>
+                        Приходь і допомагай вигулювати
+                        собак або доглядати за ними.
+                        Нам також потрібні водії.
+                    </p>
+                </div>
+                <div class="help-choices-item">
+                    <img src="images/feeding-the-dog.png" alt="feed the dog">
+                    <p>
+                        Ти можеш пожертвувати  меди -
+                        каменти або будь-які товари за
+                        доглядом тваринок. А також
+                        продукти, корм або інші ласощі,
+                        щоб хвостаті були ситі та здорові.
+                    </p>
+                </div>
+                <div class="help-choices-item">
+                    <img src="images/social-media%20(3).png" alt="socials">
+                    <p>
+                        Розповідай про нас у соцмережах.
+                        Так у наших собак та кішок буде
+                        більший шанс стати заміченими
+                        та знайти собі домівку.
+                    </p>
+                </div>
+                <div class="help-choices-item">
+                    <img src="images/money%20(1).png" alt="money">
+                    <p>
+                        Розповідай про нас у соцмережах.
+                        Так у наших собак та кішок буде
+                        більший шанс стати заміченими
+                        та знайти собі домівку.
+                    </p>
+                    <button class="help-choices-item-button">ДОПОМОГТИ</button>
+                </div>
+                <div class="help-choices-item">
+                    <img src="images/dog-pawprint-on-a-heart.png" alt="paw-print">
+                    <p>
+                        Ну і звичайно найкраща допомога - це
+                        прихистити тваринку,
+                        подарувати їй дім, затишок і
+                        свою любов.
+                    </p>
+                    <button class="help-choices-item-button">ПРИХИСТИТИ</button>
+                </div>
+            </div>
+        </div>
+        <div class="section footer" data-menuanchor="#fifthPage">
+            <h2 class="footer-chapter">Контакти</h2>
+            <div class="footer-wrapper">
+                <ul class="footer-wrapper-info">
+                    <li class="footer-wrapper-info-item">
+                        <span>Адреса:</span>
+                        <img src="images/placeholder.png" alt="placeholder">
+                        Чернівецька область, м. Чернівці,
+                        вулиця Південно - Кільцева, 47 (Заїзд з вулиці Руської).  58023
+                    </li>
+                    <li class="footer-wrapper-info-item">
+                        <span>Режим роботи:</span>
+                        <img src="images/wall-clock.png" alt="clock">
+                        Пн - Сб 9:00 - 18:00
+                        Перерва:13:00 -14:00
+                        Сб - Нд: Вихідні
+                    </li>
+                    <li class="footer-wrapper-info-item">
+                        <span>Контакти:</span>
+                        <img src="images/mobile-phone%20(3).png" alt="phone">
+                        (095)526 - 00 - 45
+                    </li>
+                    <li class="footer-wrapper-info-item">
+                        <span>Соціальні мережі:</span>
+                        <a href="#"><img src="images/facebook-logo.png" alt="facebook"></a>
+                    </li>
+                </ul>
+                <form class="footer-wrapper-form" action="#">
+                    <input placeholder="Повне ім’я*" type="text">
+                    <input placeholder="Номер телефону*" type="text">
+                    <input placeholder="e-mail*" type="text">
+                    <textarea placeholder="Повідомлення" name="" id="" cols="30" rows="10"></textarea>
+                    <button class="footer-wrapper-form-button">Надіслати</button>
+                </form>
+            </div>
+        </div>
+        <div class="section map" data-menuanchor="#sixthPage">
+            <div id="map"></div>
+        </div>
     </div>
-    <div class="section">Three</div>
-    <div class="section">Four</div>
-</div>
-<script src="js/scroll.js"></script>
+    <script src="node_modules/fullpage.js/vendors/easings.min.js"></script>
+    <script src="node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    <script src="node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC7jvMB0usvCqHbCGMVmqj6tkMjMkBykQ&callback=initMap"></script>
+    <script>
+        let map;
+        function initMap() {
+            let shelter = {lat: 48.263357, lng: 25.987977};
+            let map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 15,
+                    center: shelter,
+                    styles: [
+                        {
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#ebe3cd"
+                                }
+                            ]
+                        },
+                        {
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                                {
+                                    "color": "#523735"
+                                }
+                            ]
+                        },
+                        {
+                            "elementType": "labels.text.stroke",
+                            "stylers": [
+                                {
+                                    "color": "#f5f1e6"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "administrative",
+                            "elementType": "geometry.stroke",
+                            "stylers": [
+                                {
+                                    "color": "#c9b2a6"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "administrative.land_parcel",
+                            "elementType": "geometry.stroke",
+                            "stylers": [
+                                {
+                                    "color": "#dcd2be"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "administrative.land_parcel",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                                {
+                                    "color": "#ae9e90"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "landscape.natural",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#dfd2ae"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#dfd2ae"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                                {
+                                    "color": "#93817c"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi.park",
+                            "elementType": "geometry.fill",
+                            "stylers": [
+                                {
+                                    "color": "#a5b076"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi.park",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                                {
+                                    "color": "#447530"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#f5f1e6"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.arterial",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#fdfcf8"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#f8c967"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "geometry.stroke",
+                            "stylers": [
+                                {
+                                    "color": "#e9bc62"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.highway.controlled_access",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#e98d58"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.highway.controlled_access",
+                            "elementType": "geometry.stroke",
+                            "stylers": [
+                                {
+                                    "color": "#db8555"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.local",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                                {
+                                    "color": "#806b63"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "transit.line",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#dfd2ae"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "transit.line",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                                {
+                                    "color": "#8f7d77"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "transit.line",
+                            "elementType": "labels.text.stroke",
+                            "stylers": [
+                                {
+                                    "color": "#ebe3cd"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "transit.station",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "color": "#dfd2ae"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "geometry.fill",
+                            "stylers": [
+                                {
+                                    "color": "#b9d3c2"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                                {
+                                    "color": "#92998d"
+                                }
+                            ]
+                        }
+                    ]
+
+                });
+            let marker = new google.maps.Marker({position: shelter, map: map});
+        }
+    </script>
+    <script src="js/index.js"></script>
 </body>
 </html>

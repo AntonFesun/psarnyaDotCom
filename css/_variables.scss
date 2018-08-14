@@ -1,0 +1,30 @@
+@import 'fonts';
+
+//fonts
+$font-stack: 'Trajan', 'sans-serif';
+$font-stack2: 'Gothic', 'sans-serif';
+
+//font-colors
+$white_font: #fff;
+$black_font: #000;
+
+//font-sizes
+$menu-item-size: 20px;
+
+//buttons
+$back-button: rgba(235, 235, 235, 0.5);
+$back-button-hover: rgba(235, 235, 235, 0);
+$border-color: #7c5c65;
+$border-button: 1px solid $border-color;
+$button-ff: 27px;
+
+
+@mixin button($borderC, $color-text, $color-back, $pt, $pl, $fz) {
+  text-decoration: none;
+  color: $color-text;
+  background-color: $color-back;
+  padding: $pt $pl;
+  border: $borderC;
+  font-size: $fz;
+}
+
