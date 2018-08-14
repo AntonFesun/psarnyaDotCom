@@ -25,6 +25,14 @@ button {
   box-sizing: border-box;
   position: fixed;
   right: 0; }
+  #myMenu .active {
+    border: 1px solid #fff;
+    transform-origin: 50% 50% 0;
+    -webkit-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    -moz-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    -o-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    width: auto; }
   #myMenu .list-element {
     list-style: none;
     font-size: 20px;
@@ -260,14 +268,5 @@ button {
 
 #map {
   height: 100%; }
-
-.active {
-  border: 1px solid #fff;
-  transform-origin: 50% 50% 0;
-  -webkit-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-  -moz-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-  -o-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-  transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-  width: auto; }
 
 /*# sourceMappingURL=style.css.map */

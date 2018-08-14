@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="047ca64d-146e-441c-99d1-5b8db5e9d251" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/LOGO-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.extensions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/easings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/easings.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/easings.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/scrolloverflow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/scrolloverflow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/scrolloverflow.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +18,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.44162735">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="527">
@@ -60,16 +35,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="q.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/q.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
@@ -94,8 +60,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="598">
-                  <caret line="220" selection-start-line="220" selection-end-line="220" />
+                <state relative-caret-position="536">
+                  <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
                   <folding>
                     <element signature="e#1014#1088#0" />
                     <element signature="e#1100#1414#0" />
@@ -314,25 +280,25 @@
       <workItem from="1533410422565" duration="79000" />
       <workItem from="1533410627681" duration="27000" />
       <workItem from="1533411382464" duration="71000" />
-      <workItem from="1534097909296" duration="56970000" />
+      <workItem from="1534097909296" duration="57591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75369000" />
+    <option name="totallyTimeSpent" value="75990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10642782" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10642782" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3267974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3267974" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3267974" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -550,21 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -586,10 +537,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        <state relative-caret-position="536">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
           <folding>
             <element signature="e#1014#1088#0" />
             <element signature="e#1100#1414#0" />

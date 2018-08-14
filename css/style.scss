@@ -25,6 +25,16 @@ button {
   position: fixed;
   right: 0;
 
+  .active {
+    border: 1px solid $white_font;
+    transform-origin: 50% 50% 0;
+    -webkit-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    -moz-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    -o-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    width: auto;
+  }
+
   .list-element {
     list-style: none;
     font-size: $menu-item-size;
@@ -333,15 +343,7 @@ button {
   height: 100%;
 }
 
-.active {
-  border: 1px solid $white_font;
-  transform-origin: 50% 50% 0;
-  -webkit-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-  -moz-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-  -o-transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-  transition: all 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-  width: auto;
-}
+
 
 
 
