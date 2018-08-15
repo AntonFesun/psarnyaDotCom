@@ -1,0 +1,189 @@
+@media screen and (max-width: 1250px){
+
+  #open-menu {
+    display: block;
+    z-index: 10000;
+  }
+
+  #myMenu {
+    display: none;
+    margin-top: 25px;
+    box-shadow: 0 0 5px inset black;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  ul.act {
+    display: block;
+    transition: 0.5s display 0.1s;
+  }
+
+  .list-element {
+    display: block;
+  }
+
+  .about-us-wrapper-description {
+    font-size: 1.3vw;
+    width: 60%;
+  }
+
+  .adoption {
+    position: relative;
+    max-width: 60%;
+    transform: translateY(42vh);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .services-wrapper-items {
+    margin-top: 10.5vh;
+  }
+
+  .help-description {
+    font-size: 2vw;
+  }
+
+  .footer-wrapper-info-item {
+    line-height: 9vh;
+    font-size: 2.9vh;
+
+    span {
+      font-size: 3.1vh;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .about-us-wrapper-description {
+    font-size: 1.9vw;
+    width: 85%;
+    line-height: 6vh;
+  }
+  .services-wrapper-items {
+
+    &-service {
+      padding: 0;
+
+      &-name {
+        margin:  0;
+      }
+
+      &-describe {
+        margin-bottom: 1%;
+      }
+
+      img {
+        margin: 1% auto;
+      }
+    }
+
+    &-reserve {
+      margin: 2% auto 0;
+    }
+  }
+
+  .help-choices {
+    padding: 0 50px;
+  }
+
+  .help-choices-item {
+    width: auto;
+
+    &-button {
+      margin: 0 auto 1%;
+    }
+
+    img {
+      margin: 1% auto 0;
+    }
+
+    p {
+      padding: 0 1%;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer-wrapper-form {
+    input {
+      height: 26px;
+    }
+
+    button {
+      padding: 7px 35px;
+      font-size: 23px;
+    }
+  }
+}
+
+@media screen and (max-width: 618px){
+
+  .adoption {
+    transform: translateY(58vh);
+
+    &-chapter {
+      font-size: 30px;
+    }
+  }
+
+  .services-wrapper-items {
+    margin-top: 23vh;
+  }
+
+  .services-wrapper-items-reserve {
+    margin: 1px auto;
+  }
+}
+
+@media screen and (orientation: portrait) and (max-width: 414px)  {
+
+  .home {
+    background-position-x: center;
+  }
+
+  .main-link {
+    margin: 5px auto;
+    justify-content: center;
+  }
+
+  .adoption {
+    position: static;
+    margin: 0 auto;
+    transform: translateY(25vh);
+  }
+
+  .about-us {
+    background-position-x: right;
+  }
+
+  .help-description {
+    font-size: 5vw;
+  }
+
+  .footer-wrapper-info-item {
+    line-height: 4vh;
+    font-size: 1.9vh;
+    padding-bottom: 10px;
+  }
+
+  .footer-wrapper-form-button {
+    padding: 3px;
+    font-size: 18px;
+  }
+
+  .adoption-chapter {
+    font-size: 23px;
+  }
+
+  .adoption-me {
+    padding: 20px 10px;
+  }
+
+  .about-us-wrapper-description {
+    font-size: 9px;
+    width: 81%;
+    line-height: 19px;
+  }
+
+}

@@ -14,16 +14,28 @@ button {
   background-color: black;
 }
 
+#open-menu {
+  display: none;
+  color: $white_font;
+  cursor: pointer;
+  padding: 30px 30px 0 0;
+  position: fixed;
+  right: 0;
+
+}
+
 #myMenu{
   z-index: 70;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 30px 30px 0 0;
-  width: 1020px;
+  max-width: 1020px;
   box-sizing: border-box;
   position: fixed;
   right: 0;
+
+
 
   .active {
     border: 1px solid $white_font;
@@ -103,6 +115,7 @@ button {
   &-me {
     @include button($border-button, $black_font, $back-button, 20px, 35px, $button-ff);
     max-width: 176px;
+    text-align: center;
     &:hover {
       background-color: $back-button-hover;
       color: $white_font;
@@ -116,19 +129,20 @@ button {
   background-size: cover;
   opacity: 0.8;
 
+  &-chapter {
+    @extend .adoption-chapter;
+    position: absolute;
+    top: 16px;
+    left: 30px;
+  }
+
   &-wrapper {
     display: flex;
     justify-content: end;
     flex-direction: column;
     align-items: end;
-    margin-right: 243px;
-    margin-top: 135px;
-
-    &-chapter {
-      @extend .adoption-chapter;
-      text-align: right;
-      margin-bottom: 25px;
-    }
+    margin-right: 55px;
+    transform: translateY(40%);
 
     &-description {
       font-family: $font-stack2;
@@ -226,36 +240,41 @@ button {
     font-size: 25.4px;
     font-weight: 400;
     text-align: center;
-    max-width: 900px;
-    margin: 100px auto 0;
+    padding: 0 15px 0;
+    position: absolute;
+    top: 90px;
   }
 
   &-choices {
+    height: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 150px 50px 0;
 
     &-item {
       border: 1px solid #fdfff9;
       box-sizing: border-box;
-      width: 400px;
-      margin: 15px 41px;
-      position: relative;
+      max-width: 400px;
       background-color: rgba(249, 173, 129, 0.23);
       background: -webkit-linear-gradient(135deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
       background: -moz-linear-gradient(135deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
       background: -o-linear-gradient(135deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
       background: -ms-linear-gradient(135deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
       background: linear-gradient(-45deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
+      transform: translateY(50px);
 
       img {
         display: block;
-        margin: 30px auto 60px;
+        margin: 4% auto 10%;
         height: 75px;
       }
 
       p {
-        padding: 0 40px 45px;
+        padding: 0 7% 4%;
+        text-align: center;
       }
 
       &-button {
@@ -301,6 +320,7 @@ button {
 
         span {
           font-size: 20px;
+          text-decoration-line: underline;
         }
 
         img {
@@ -342,6 +362,10 @@ button {
 #map {
   height: 100%;
 }
+
+@import "media";
+
+
 
 
 

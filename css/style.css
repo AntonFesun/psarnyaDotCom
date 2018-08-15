@@ -15,13 +15,21 @@ button {
   color: #ffffff;
   background-color: black; }
 
+#open-menu {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 30px 30px 0 0;
+  position: fixed;
+  right: 0; }
+
 #myMenu {
   z-index: 70;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 30px 30px 0 0;
-  width: 1020px;
+  max-width: 1020px;
   box-sizing: border-box;
   position: fixed;
   right: 0; }
@@ -76,7 +84,7 @@ button {
   flex-direction: column;
   max-width: 502px;
   align-items: center; }
-  .adoption-chapter, .about-us-wrapper-chapter, .services-wrapper-chapter, .services-wrapper-items-service-name, .help-chapter, .footer-chapter {
+  .adoption-chapter, .about-us-chapter, .services-wrapper-chapter, .services-wrapper-items-service-name, .help-chapter, .footer-chapter {
     font-family: "Trajan", "sans-serif";
     color: #fff;
     font-size: 46px;
@@ -89,7 +97,8 @@ button {
     padding: 20px 35px;
     border: 1px solid #7c5c65;
     font-size: 27px;
-    max-width: 176px; }
+    max-width: 176px;
+    text-align: center; }
     .adoption-me:hover {
       background-color: rgba(235, 235, 235, 0);
       color: #fff;
@@ -99,16 +108,17 @@ button {
   background-image: url("../images/cat.png");
   background-size: cover;
   opacity: 0.8; }
+  .about-us-chapter {
+    position: absolute;
+    top: 16px;
+    left: 30px; }
   .about-us-wrapper {
     display: flex;
     justify-content: end;
     flex-direction: column;
     align-items: end;
-    margin-right: 243px;
-    margin-top: 135px; }
-    .about-us-wrapper-chapter {
-      text-align: right;
-      margin-bottom: 25px; }
+    margin-right: 55px;
+    transform: translateY(40%); }
     .about-us-wrapper-description {
       font-family: "Gothic", "sans-serif";
       font-size: 22px;
@@ -180,30 +190,35 @@ button {
     font-size: 25.4px;
     font-weight: 400;
     text-align: center;
-    max-width: 900px;
-    margin: 100px auto 0; }
+    padding: 0 15px 0;
+    position: absolute;
+    top: 90px; }
   .help-choices {
+    height: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; }
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 150px 50px 0; }
     .help-choices-item {
       border: 1px solid #fdfff9;
       box-sizing: border-box;
-      width: 400px;
-      margin: 15px 41px;
-      position: relative;
+      max-width: 400px;
       background-color: rgba(249, 173, 129, 0.23);
       background: -webkit-linear-gradient(135deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
       background: -moz-linear-gradient(135deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
       background: -o-linear-gradient(135deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
       background: -ms-linear-gradient(135deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
-      background: linear-gradient(-45deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%); }
+      background: linear-gradient(-45deg, rgba(197, 159, 115, 0.36) 0%, rgba(48, 29, 29, 0.36) 100%);
+      transform: translateY(50px); }
       .help-choices-item img {
         display: block;
-        margin: 30px auto 60px;
+        margin: 4% auto 10%;
         height: 75px; }
       .help-choices-item p {
-        padding: 0 40px 45px; }
+        padding: 0 7% 4%;
+        text-align: center; }
       .help-choices-item-button {
         display: block;
         margin: 0 auto 15px;
@@ -239,7 +254,8 @@ button {
         line-height: 70px;
         font-size: 17px; }
         .footer-wrapper-info-item span {
-          font-size: 20px; }
+          font-size: 20px;
+          text-decoration-line: underline; }
         .footer-wrapper-info-item img {
           vertical-align: middle; }
     .footer-wrapper-form {
@@ -268,5 +284,128 @@ button {
 
 #map {
   height: 100%; }
+
+@media screen and (max-width: 1250px) {
+  #open-menu {
+    display: block;
+    z-index: 10000; }
+
+  #myMenu {
+    display: none;
+    margin-top: 25px;
+    box-shadow: 0 0 5px inset black;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+  ul.act {
+    display: block;
+    transition: 0.5s display 0.1s; }
+
+  .list-element {
+    display: block; }
+
+  .about-us-wrapper-description {
+    font-size: 1.3vw;
+    width: 60%; }
+
+  .adoption {
+    position: relative;
+    max-width: 60%;
+    transform: translateY(42vh);
+    margin: 0 auto; } }
+@media screen and (max-width: 960px) {
+  .services-wrapper-items {
+    margin-top: 10.5vh; }
+
+  .help-description {
+    font-size: 2vw; }
+
+  .footer-wrapper-info-item {
+    line-height: 9vh;
+    font-size: 2.9vh; }
+    .footer-wrapper-info-item span {
+      font-size: 3.1vh; } }
+@media screen and (max-width: 850px) {
+  .about-us-wrapper-description {
+    font-size: 1.9vw;
+    width: 85%;
+    line-height: 6vh; }
+
+  .services-wrapper-items-service {
+    padding: 0; }
+    .services-wrapper-items-service-name {
+      margin: 0; }
+    .services-wrapper-items-service-describe {
+      margin-bottom: 1%; }
+    .services-wrapper-items-service img {
+      margin: 1% auto; }
+  .services-wrapper-items-reserve {
+    margin: 2% auto 0; }
+
+  .help-choices {
+    padding: 0 50px; }
+
+  .help-choices-item {
+    width: auto; }
+    .help-choices-item-button {
+      margin: 0 auto 1%; }
+    .help-choices-item img {
+      margin: 1% auto 0; }
+    .help-choices-item p {
+      padding: 0 1%; } }
+@media screen and (max-width: 650px) {
+  .footer-wrapper-form input {
+    height: 26px; }
+  .footer-wrapper-form button {
+    padding: 7px 35px;
+    font-size: 23px; } }
+@media screen and (max-width: 618px) {
+  .adoption {
+    transform: translateY(58vh); }
+    .adoption-chapter, .about-us-chapter, .services-wrapper-chapter, .services-wrapper-items-service-name, .help-chapter, .footer-chapter {
+      font-size: 30px; }
+
+  .services-wrapper-items {
+    margin-top: 23vh; }
+
+  .services-wrapper-items-reserve {
+    margin: 1px auto; } }
+@media screen and (orientation: portrait) and (max-width: 414px) {
+  .home {
+    background-position-x: center; }
+
+  .main-link {
+    margin: 5px auto;
+    justify-content: center; }
+
+  .adoption {
+    position: static;
+    margin: 0 auto;
+    transform: translateY(25vh); }
+
+  .about-us {
+    background-position-x: right; }
+
+  .help-description {
+    font-size: 5vw; }
+
+  .footer-wrapper-info-item {
+    line-height: 4vh;
+    font-size: 1.9vh;
+    padding-bottom: 10px; }
+
+  .footer-wrapper-form-button {
+    padding: 3px;
+    font-size: 18px; }
+
+  .adoption-chapter, .about-us-chapter, .services-wrapper-chapter, .services-wrapper-items-service-name, .help-chapter, .footer-chapter {
+    font-size: 23px; }
+
+  .adoption-me {
+    padding: 20px 10px; }
+
+  .about-us-wrapper-description {
+    font-size: 9px;
+    width: 81%;
+    line-height: 19px; } }
 
 /*# sourceMappingURL=style.css.map */
