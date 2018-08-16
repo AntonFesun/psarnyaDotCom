@@ -23,7 +23,6 @@
 
   .about-us-wrapper-description {
     font-size: 1.3vw;
-    width: 60%;
   }
 
   .adoption {
@@ -35,9 +34,7 @@
 }
 
 @media screen and (max-width: 960px){
-  .services-wrapper-items {
-    margin-top: 10.5vh;
-  }
+
 
   .help-description {
     font-size: 2vw;
@@ -51,15 +48,33 @@
       font-size: 3.1vh;
     }
   }
+
+  .services-wrapper-items-reserve {
+    padding: 5px 35px;
+    margin: 10px auto 0;
+  }
 }
 
 @media screen and (max-width: 850px) {
 
+  .adoption-chapter {
+    font-size: 5vw;
+  }
+
+  .adoption-me {
+    font-size: 3vw;
+    padding: 5px 35px;
+  }
+
   .about-us-wrapper-description {
     font-size: 1.9vw;
-    width: 85%;
     line-height: 6vh;
   }
+
+  .services {
+    padding-top: 12vh;
+  }
+
   .services-wrapper-items {
 
     &-service {
@@ -83,8 +98,21 @@
     }
   }
 
+  .services-wrapper-items-service img {
+    width: 17%;
+  }
+
+  .help-description {
+    top: 55px;
+  }
+
+  .help-choices-item-button {
+    font-size: 12px;
+    padding: 2px 35px;
+  }
+
   .help-choices {
-    padding: 0 50px;
+    padding: 0 65px;
   }
 
   .help-choices-item {
@@ -100,19 +128,28 @@
 
     p {
       padding: 0 1%;
+      font-size: 12px;
     }
   }
+
+  .footer-wrapper-form {
+
+    input {
+      height: 25px;
+    }
+
+    &-button {
+      padding: 7px 35px;
+      font-size: 15px;
+    }
+  }
+
 }
 
 @media screen and (max-width: 650px) {
   .footer-wrapper-form {
     input {
-      height: 26px;
-    }
-
-    button {
-      padding: 7px 35px;
-      font-size: 23px;
+      height: 20px;
     }
   }
 }
@@ -127,30 +164,32 @@
     }
   }
 
-  .services-wrapper-items {
-    margin-top: 23vh;
-  }
-
   .services-wrapper-items-reserve {
     margin: 1px auto;
   }
+
+  .main-link {
+    margin: 20px auto 0;
+    justify-content: center;
+  }
+
+
 }
 
 @media screen and (orientation: portrait) and (max-width: 414px)  {
+
+  .services-wrapper {
+    padding: 0 65px;
+  }
 
   .home {
     background-position-x: center;
   }
 
-  .main-link {
-    margin: 5px auto;
-    justify-content: center;
-  }
-
   .adoption {
     position: static;
     margin: 0 auto;
-    transform: translateY(25vh);
+    transform: translateY(10vh);
   }
 
   .about-us {
@@ -167,10 +206,7 @@
     padding-bottom: 10px;
   }
 
-  .footer-wrapper-form-button {
-    padding: 3px;
-    font-size: 18px;
-  }
+
 
   .adoption-chapter {
     font-size: 23px;
@@ -181,9 +217,13 @@
   }
 
   .about-us-wrapper-description {
-    font-size: 9px;
-    width: 81%;
     line-height: 19px;
   }
 
+}
+
+@media (orientation: portrait) {
+  .footer-wrapper-form-button {
+    font-size: 5vw;
+  }
 }
