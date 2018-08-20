@@ -7,6 +7,9 @@
 button {
   cursor: pointer; }
 
+#fullpage {
+  transition: filter .7s ease-in-out; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -296,8 +299,10 @@ button {
   #myMenu {
     display: none;
     margin-top: 25px;
-    box-shadow: 0 0 5px inset black;
-    background-color: rgba(0, 0, 0, 0.5); }
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    margin-right: 10px;
+    transition: display .7s ease-in-out; }
 
   ul.act {
     display: block;
